@@ -48,7 +48,7 @@ define( 'YOURLS_LANG', '' );
 /** Allow multiple short URLs for a same long URL
  ** Set to true to have only one pair of shortURL/longURL (default YOURLS behavior)
  ** Set to false to allow multiple short URLs pointing to the same long URL (bit.ly behavior) */
-define( 'YOURLS_UNIQUE_URLS', true );
+define( 'YOURLS_UNIQUE_URLS', FALSE );
 
 /** Private means the Admin area will be protected with login/pass as defined below.
  ** Set to false for public usage (eg on a restricted intranet or for test setups)
@@ -57,7 +57,7 @@ define( 'YOURLS_PRIVATE', true );
 
 /** A random secret hash used to encrypt cookies. You don't have to remember it, make it long and complicated
  ** Hint: copy from http://yourls.org/cookie */
-define( 'YOURLS_COOKIEKEY', 'modify this text with something random' );
+define( 'YOURLS_COOKIEKEY', 'msdfghjcfdxe' );
 
 /** Username(s) and password(s) allowed to access the site. Passwords either in plain text or as encrypted hashes
  ** YOURLS will auto encrypt plain text passwords in this file
